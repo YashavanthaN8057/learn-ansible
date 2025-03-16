@@ -15,3 +15,12 @@
     - name: task2 of play 1 
       ansible.builtin.debug:
         msg: "Ansible is an awesome product"
+
+
+- name: Play15
+  hosts: uat
+  
+  tasks:
+   - action: hitting the stump 
+     ansible.builtin.debug:
+     msg: "I am tesintg!"
