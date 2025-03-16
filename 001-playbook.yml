@@ -21,6 +21,6 @@
   hosts: uat
   
   tasks:
-   - action: hitting the stump 
+   - name: hitting the stump 
      ansible.builtin.debug:
       msg: "I am tesintg!"
