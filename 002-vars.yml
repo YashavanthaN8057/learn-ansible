@@ -1,0 +1,21 @@
+
+- name: printing play variables
+  hosts : all
+  vars :
+   URL="www.yash.ecom.com"
+
+  ansible.builtin.debug:
+   msg: " the URL we wanted is: {{URL}} and this is play variable"
+
+  tasks:
+   - name: "testing the local variable:"
+     ansible.builtin.debug:
+      msg: "the local var is : {{URL}}"
+
+     vars:
+      URL="www.abc.com"
+
+  
+
+
+   
