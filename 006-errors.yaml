@@ -1,5 +1,6 @@
 - name: Demo on errors
-  hosts: all                                # host group name 
+  hosts: all   
+  gather_facts: no                             # host group name 
   tasks:
     - name: Printing first message
       ansible.builtin.debug:
