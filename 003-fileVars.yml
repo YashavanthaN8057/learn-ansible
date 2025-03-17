@@ -11,4 +11,5 @@
       
     - name: Printing variables from file
       ansible.builtin.debug:
-        msg: "Current Environment is {{ env }} and the project name is {{ project }} their action is {{ action }}"
+        msg: "Current Environment is {{ env }} and the project name is {{ project }} their action is {{ action }} and"
+        
