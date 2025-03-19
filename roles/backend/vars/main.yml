@@ -1,0 +1,4 @@
+component: "backend"
+appuser: "expense"
+app_dir: "/app"
+url: "https://expense-web-app.s3.amazonaws.com/backend.zip "
