@@ -55,7 +55,7 @@
     name: all
     state: import
     target: /app/schema/backend.sql 
-    login_host: 17172.31.88.23
+    login_host: 172.31.88.23
     login_user: root
     login_password: ExpenseApp@1
 
