@@ -1,0 +1,5 @@
+- name: Expense Playbook To Configure in the {{ component }}
+  hosts: "{{ component }}"
+  become: yes        #give previlage as root
+  roles:
+    - "{{ component }}"
