@@ -1,8 +1,8 @@
 [frontend]
-18.208.110.96
+frontend-dev.cloudcera.shop
 
 [backend]
-54.221.6.246
+backend-dev.cloudcera.shop
 
 [mysql]
-52.207.112.210
+mysql-dev.cloudcera.shop
