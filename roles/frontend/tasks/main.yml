@@ -1,5 +1,3 @@
-- name: Configuring host_name
-  ansible.builtin.shell: set-hostname {{ component }} - {{ env }}
 
 - name: Installing nginx and using in frontend
   ansible.builtin.dnf:
