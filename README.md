@@ -110,4 +110,5 @@ What is role dependency in ansible ?
 When we are calling a role - x and before the start of the role if you want y - role to be executed first then we can define that as a dependent role.
 
 When you call something using role-dependency main.yml of that particular roles task will be executed first.
+1
 
